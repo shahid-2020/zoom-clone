@@ -120,3 +120,16 @@ const playStop = () => {
     setStopVideo();
   }
 };
+
+const participants = () => {
+  alert('Share the current url to add participants');
+};
+
+const chat = () => {
+  document.getElementById('chat_message').focus();
+};
+
+const leaveMeeting = () => {
+  console.log(location);
+  location.href = `${location.origin}/end`;
+};

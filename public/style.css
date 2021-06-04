@@ -123,3 +123,9 @@ video {
 .stop {
   color: #cc3b33;
 }
+
+.end {
+  color: #cc3b33;
+  margin-top: 20px;
+  text-align: center;
+}

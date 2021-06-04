@@ -17,8 +17,16 @@ app.get('/', (req, res) => {
   res.redirect(`/${uuid()}`);
 });
 
+app.get('/end', (req, res) => {
+  res.render('end');
+});
+
 app.get('/:roomId', (req, res) => {
   res.render('room', { roomId: req.params.roomId });
+});
+
+app.get('*', (req, res) => {
+  res.sendStatus(404);
 });
 
 io.on('connection', (socket) => {

@@ -1,3 +1,3 @@
 # zoom-clone
 
-https://safe-temple-13604.herokuapp.com
+https://video-telephony-app.herokuapp.com
