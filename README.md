@@ -1,3 +1,3 @@
 # zoom-clone
 
-https://zoom-clone-tyr8.onrender.com/7043d01b-683e-4556-8523-62661123878b
+[Click here to visit app](https://zoom-clone-xkr3.onrender.com)
